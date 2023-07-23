@@ -14,6 +14,7 @@
 									value='<?= isset($service->id) ? $service->id : ''?>' hidden>
 							</div>
 							<div class="row">
+                                                          <!-- If Tag Having Content It Can Read From DB -->
 								<div class="form-group col-md-6 col-12">
 									<label>Service No.</label>
 									<input type="text" class="form-control" name="sr_no"
